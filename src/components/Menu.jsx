@@ -50,7 +50,7 @@ const Item = styled.div`
     cursor: pointer;
     padding: 7.5px 0px;
     &:hover {
-        text-decoration: underline;
+        background-color: ${({theme}) => theme.softBorder};
     }
 `;
 const Hr = styled.hr`
