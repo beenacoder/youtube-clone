@@ -26,8 +26,8 @@ const Container = styled.div`
     height:100%;
     color: ${({theme}) => theme.text};
     font-size: 14px;
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
 `;
 const Wrapper = styled.div`
     padding: 18px 26px;

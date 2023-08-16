@@ -10,6 +10,7 @@ import SignIn from './pages/SignIn';
 
 
 const Container = styled.div`
+    /* height: 100%; */
     display: flex;
 `;
 
